@@ -54,7 +54,7 @@ that one flag changed.
 
 ## Result
 
-**Measured on:** your local machine, single test run, Coda model / celeste speaker, 3 utterances of increasing length (17, 54, 111 characters).
+**Measured on:** MacBook Air, home Wi-Fi, single test run, Coda model / celeste speaker, 3 utterances of increasing length (17, 54, 111 characters).
 
 | Condition | Mean TTFB | Notes |
 |---|---|---|

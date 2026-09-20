@@ -7,8 +7,7 @@ Pipeline: LiveKit transport -> Silero VAD -> Groq STT (Whisper) -> Groq LLM
 Groq is used for STT and LLM because it has a genuinely free API tier
 (unlike OpenAI, which requires prepaid billing) -- this keeps the only
 paid dependency in this project scoped to Rime, which is what's actually
-being judged. Swap back to openai.STT()/openai.LLM() below if you'd
-rather use OpenAI; the rest of the pipeline is unaffected either way.
+being judged.
 
 This instruments the "perceived response time" acceptance test end to end
 using LiveKit Agents' built-in metrics events:
